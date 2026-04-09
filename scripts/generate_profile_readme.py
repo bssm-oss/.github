@@ -187,7 +187,20 @@ def fetch_public_repos(org: str) -> list[dict[str, Any]]:
 
 
 def fetch_top_contributor(org: str, repo_name: str) -> str | None:
-    return REPRESENTATIVE_CONTRIBUTOR
+    time.sleep(0.05)
+    try:
+        contributors = api_get(
+            f"/repos/{org}/{repo_name}/contributors", {"per_page": 10}
+        )
+    except RuntimeError:
+        return None
+    if not contributors:
+        return None
+    for contributor in contributors:
+        login = contributor.get("login")
+        if login and not login.endswith("[bot]"):
+            return login
+    return contributors[0].get("login")
 
 
 def normalize_repo(repo: dict[str, Any], top_contributor: str | None) -> RepoRow:
@@ -272,7 +285,7 @@ def render_catalog(repos: list[RepoRow]) -> str:
     lines = [
         "## 🗂️ 카테고리별 프로젝트 카탈로그",
         "",
-        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 조직 대표 계정인 `heodongun`으로 통일해 표시하고, 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
+        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 공개 기여자 데이터를 우선 사용하고, 확인되지 않는 항목만 조직 대표 계정인 `heodongun`으로 표시합니다. 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
         "",
     ]
     for category in CATEGORY_ORDER:
@@ -288,10 +301,9 @@ def render_catalog(repos: list[RepoRow]) -> str:
             ]
         )
         for repo in repos_in_category:
+            contributor_login = repo.top_contributor or REPRESENTATIVE_CONTRIBUTOR
             contributor = (
-                f"[@{repo.top_contributor}](https://github.com/{repo.top_contributor})"
-                if repo.top_contributor
-                else "-"
+                f"[@{contributor_login}](https://github.com/{contributor_login})"
             )
             tags = " ".join(f"`{tag}`" for tag in tag_list(repo))
             lines.append(
