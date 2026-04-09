@@ -18,6 +18,7 @@ ORG = os.getenv("README_ORG", "bssm-oss")
 OUTPUT_PATH = Path(os.getenv("README_OUTPUT", "profile/README.md"))
 API_BASE = "https://api.github.com"
 TOKEN = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+REPRESENTATIVE_CONTRIBUTOR = "heodongun"
 
 INTRO = """# BSSM OSS
 
@@ -186,20 +187,7 @@ def fetch_public_repos(org: str) -> list[dict[str, Any]]:
 
 
 def fetch_top_contributor(org: str, repo_name: str) -> str | None:
-    time.sleep(0.05)
-    try:
-        contributors = api_get(
-            f"/repos/{org}/{repo_name}/contributors", {"per_page": 10}
-        )
-    except RuntimeError:
-        return None
-    if not contributors:
-        return None
-    for contributor in contributors:
-        login = contributor.get("login")
-        if login and not login.endswith("[bot]"):
-            return login
-    return contributors[0].get("login")
+    return REPRESENTATIVE_CONTRIBUTOR
 
 
 def normalize_repo(repo: dict[str, Any], top_contributor: str | None) -> RepoRow:
@@ -284,7 +272,7 @@ def render_catalog(repos: list[RepoRow]) -> str:
     lines = [
         "## 🗂️ 카테고리별 프로젝트 카탈로그",
         "",
-        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 각 저장소의 공개 기여도 기준 최상위 기여자를 표시하고, 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
+        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 조직 대표 계정인 `heodongun`으로 통일해 표시하고, 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
         "",
     ]
     for category in CATEGORY_ORDER:
