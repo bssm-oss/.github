@@ -1,0 +1,46 @@
+name: Documentation
+description: Something in the docs is missing, wrong, or unclear.
+title: "[docs] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Good docs matter. Let us know what needs fixing.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is the issue?
+      description: Link to the doc, section, or file that has the problem.
+      placeholder: "README.md — Installation section / docs/CONFIGURATION.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      options:
+        - Incorrect information
+        - Missing information
+        - Unclear or confusing
+        - Outdated
+        - Typo
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe what the current docs say and what the problem is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: How should it be corrected or improved? Feel free to paste a revised version.

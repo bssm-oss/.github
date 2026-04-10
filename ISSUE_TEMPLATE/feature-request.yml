@@ -1,0 +1,39 @@
+name: Feature Request
+description: Suggest a new feature or improvement.
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? Describe it clearly and we'll take a look.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the problem or limitation you're running into. Good features start with a real pain point.
+      placeholder: I always have to manually do X because there's no way to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What would you like to see? Be as specific as possible — include CLI flags, API shape, UI behavior, etc.
+      placeholder: Add a `--foo` flag that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Any other approaches you've thought about, or workarounds you're currently using.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Mockups, related issues, prior art, or anything else relevant.
