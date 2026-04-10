@@ -1,0 +1,23 @@
+name: Question
+description: Not a bug, not a feature — just a question.
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For general questions, you may also get a faster response in [Discussions](../../discussions).
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+      description: Be as specific as possible. Include what you've already tried or read.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to accomplish? Sometimes this helps us give a better answer.
