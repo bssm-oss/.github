@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/orgs/bssm-oss/discussions
+    about: Ask questions or share ideas in the community forum.
