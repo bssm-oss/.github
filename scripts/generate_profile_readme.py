@@ -18,6 +18,7 @@ ORG = os.getenv("README_ORG", "bssm-oss")
 OUTPUT_PATH = Path(os.getenv("README_OUTPUT", "profile/README.md"))
 API_BASE = "https://api.github.com"
 TOKEN = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+REPRESENTATIVE_CONTRIBUTOR = "heodongun"
 
 INTRO = """# BSSM OSS
 
@@ -284,7 +285,7 @@ def render_catalog(repos: list[RepoRow]) -> str:
     lines = [
         "## 🗂️ 카테고리별 프로젝트 카탈로그",
         "",
-        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 각 저장소의 공개 기여도 기준 최상위 기여자를 표시하고, 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
+        "GitHub 공개 저장소를 기준으로 자동 정리됩니다. `대표 기여자`는 공개 기여자 데이터를 우선 사용하고, 확인되지 않는 항목만 조직 대표 계정인 `heodongun`으로 표시합니다. 태그는 언어·토픽·저장소 성격을 바탕으로 자동 생성합니다.",
         "",
     ]
     for category in CATEGORY_ORDER:
@@ -300,10 +301,9 @@ def render_catalog(repos: list[RepoRow]) -> str:
             ]
         )
         for repo in repos_in_category:
+            contributor_login = repo.top_contributor or REPRESENTATIVE_CONTRIBUTOR
             contributor = (
-                f"[@{repo.top_contributor}](https://github.com/{repo.top_contributor})"
-                if repo.top_contributor
-                else "-"
+                f"[@{contributor_login}](https://github.com/{contributor_login})"
             )
             tags = " ".join(f"`{tag}`" for tag in tag_list(repo))
             lines.append(
