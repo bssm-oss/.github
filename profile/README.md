@@ -6,6 +6,20 @@
 >
 > 이 조직에는 Android, macOS, CLI, 웹, AI 워크플로, 개발자 도구처럼 기술 스펙트럼이 넓은 프로젝트가 함께 쌓입니다. 그래서 BSSM OSS의 리포지토리는 결과물만 보여주는 공간이 아니라, 아이디어를 어떻게 구현했고 어떤 문제를 풀고 있는지, 그리고 다음 기여자가 어디서부터 참여하면 되는지까지 드러나는 오픈소스 작업 기록이어야 합니다.
 
+<div align="center">
+
+<img src="https://bssm-oss-badges.vercel.app/api/banner.svg" alt="BSSM OSS Banner" width="800"/>
+
+<img src="https://bssm-oss-badges.vercel.app/api/stats.svg" alt="BSSM OSS Stats" width="800"/>
+
+<img src="https://bssm-oss-badges.vercel.app/api/members.svg" alt="BSSM OSS Members" width="440"/>
+
+</div>
+
+<br/>
+
+<img src="https://bssm-oss-badges.vercel.app/api/activity.svg" alt="Recent Activity" width="800"/>
+
 ## ⭐ 가장 많은 스타를 받은 프로젝트
 
 | 프로젝트 | 설명 | Stars |
