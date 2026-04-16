@@ -12,7 +12,7 @@
 
 <img src="https://bssm-oss-badges.vercel.app/api/stats.svg" alt="BSSM OSS Stats" width="800"/>
 
-<img src="https://bssm-oss-badges.vercel.app/api/members.svg" alt="BSSM OSS Members" width="440"/>
+<img src="https://bssm-oss-badges.vercel.app/api/members.svg" alt="BSSM OSS Members" width="800"/>
 
 </div>
 
