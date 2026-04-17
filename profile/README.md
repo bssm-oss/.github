@@ -16,21 +16,6 @@
 
 </div>
 
-<br/>
-
-<img src="https://bssm-oss-badges.vercel.app/api/activity.svg" alt="Recent Activity" width="800"/>
-
-## ✨ Featured Projects
-
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot"/></picture>](https://github.com/bssm-oss/kakao-talk-auto-bot)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=CodeAgora&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=CodeAgora"/></picture>](https://github.com/bssm-oss/CodeAgora)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=desktop-pet&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=desktop-pet"/></picture>](https://github.com/bssm-oss/desktop-pet)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=beautiful-ccg&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=beautiful-ccg"/></picture>](https://github.com/bssm-oss/beautiful-ccg)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot-mac&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot-mac"/></picture>](https://github.com/bssm-oss/kakao-talk-auto-bot-mac)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=syncingsh&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=syncingsh"/></picture>](https://github.com/bssm-oss/syncingsh)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cli-speedrun&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cli-speedrun"/></picture>](https://github.com/bssm-oss/cli-speedrun)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cotor&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cotor"/></picture>](https://github.com/bssm-oss/cotor)
-[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=harness-for-yall&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=harness-for-yall"/></picture>](https://github.com/bssm-oss/harness-for-yall)
 
 ## 🗂️ All Projects
 
