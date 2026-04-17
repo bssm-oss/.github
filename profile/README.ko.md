@@ -2,10 +2,6 @@
 
 **[English](README.md)**
 
-> 부산소프트웨어마이스터고등학교 오픈소스 조직입니다.
->
-> 학습을 위한 작은 실험부터 실제로 사용할 수 있는 도구까지 — Android, macOS, CLI, 웹, AI 워크플로, 개발자 도구를 공개합니다. 단순히 코드를 올려두는 공간이 아니라, 다른 사람이 읽고 실행하고 기여할 수 있는 오픈소스 작업 기록을 만드는 것이 목표입니다.
-
 <div align="center">
 
 <img src="https://bssm-oss-badges.vercel.app/api/banner.svg" alt="BSSM OSS Banner" width="800"/>
