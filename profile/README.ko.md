@@ -20,13 +20,17 @@
 
 <img src="https://bssm-oss-badges.vercel.app/api/activity.svg" alt="Recent Activity" width="800"/>
 
-## ⭐ 가장 많은 스타를 받은 프로젝트
+## ✨ 추천 프로젝트
 
-| 프로젝트 | 설명 | Stars |
-| --- | --- | ---: |
-| [kakao-talk-auto-bot](https://github.com/bssm-oss/kakao-talk-auto-bot) | 선택한 방의 카카오톡 알림에 AI 자동 답장을 보내는 안드로이드 앱입니다 | 32 |
-| [desktop-pet](https://github.com/bssm-oss/desktop-pet) | GIF APNG PNG 시퀀스 비디오를 불러와 화면 위에 띄우는 네이티브 데스크톱 펫 앱입니다 | 11 |
-| [kakao-talk-auto-bot-mac](https://github.com/bssm-oss/kakao-talk-auto-bot-mac) | macOS 접근성 API로 실제 카카오톡 앱을 제어하는 katalk-ax CLI·메뉴바 자동화 도구입니다 | 6 |
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot"/></picture>](https://github.com/bssm-oss/kakao-talk-auto-bot)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=CodeAgora&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=CodeAgora"/></picture>](https://github.com/bssm-oss/CodeAgora)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=desktop-pet&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=desktop-pet"/></picture>](https://github.com/bssm-oss/desktop-pet)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=beautiful-ccg&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=beautiful-ccg"/></picture>](https://github.com/bssm-oss/beautiful-ccg)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot-mac&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=kakao-talk-auto-bot-mac"/></picture>](https://github.com/bssm-oss/kakao-talk-auto-bot-mac)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=syncingsh&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=syncingsh"/></picture>](https://github.com/bssm-oss/syncingsh)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cli-speedrun&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cli-speedrun"/></picture>](https://github.com/bssm-oss/cli-speedrun)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cotor&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=cotor"/></picture>](https://github.com/bssm-oss/cotor)
+[<picture><source media="(prefers-color-scheme: dark)" srcset="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=harness-for-yall&theme=github_dark"/><img src="https://ghrs.vercel.app/api/pin/?username=bssm-oss&repo=harness-for-yall"/></picture>](https://github.com/bssm-oss/harness-for-yall)
 
 ## 🗂️ 카테고리별 프로젝트 카탈로그
 
