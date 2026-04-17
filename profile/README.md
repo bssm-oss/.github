@@ -20,17 +20,32 @@
 
 <img src="https://bssm-oss-badges.vercel.app/api/activity.svg" alt="Recent Activity" width="800"/>
 
-## ⭐ Most Starred Projects
+## ✨ Featured Projects
 
-| Project | Description | Stars |
-| --- | --- | ---: |
-| [kakao-talk-auto-bot](https://github.com/bssm-oss/kakao-talk-auto-bot) | Android app that sends AI auto-replies to KakaoTalk notifications from selected rooms | 32 |
-| [desktop-pet](https://github.com/bssm-oss/desktop-pet) | Native desktop pet app that displays GIF, APNG, PNG sequences, and video on screen | 11 |
-| [kakao-talk-auto-bot-mac](https://github.com/bssm-oss/kakao-talk-auto-bot-mac) | CLI and menu bar tool that controls KakaoTalk via macOS Accessibility API | 6 |
+<div align="center">
+<table>
+<tr>
+<td align="center"><a href="https://github.com/bssm-oss/kakao-talk-auto-bot"><img src="https://bssm-oss-badges.vercel.app/api/project/kakao-talk-auto-bot.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/CodeAgora"><img src="https://bssm-oss-badges.vercel.app/api/project/CodeAgora.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/desktop-pet"><img src="https://bssm-oss-badges.vercel.app/api/project/desktop-pet.svg" width="256"/></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/bssm-oss/beautiful-ccg"><img src="https://bssm-oss-badges.vercel.app/api/project/beautiful-ccg.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/syncingsh"><img src="https://bssm-oss-badges.vercel.app/api/project/syncingsh.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/cli-speedrun"><img src="https://bssm-oss-badges.vercel.app/api/project/cli-speedrun.svg" width="256"/></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/bssm-oss/kakao-talk-auto-bot-mac"><img src="https://bssm-oss-badges.vercel.app/api/project/kakao-talk-auto-bot-mac.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/cotor"><img src="https://bssm-oss-badges.vercel.app/api/project/cotor.svg" width="256"/></a></td>
+<td align="center"><a href="https://github.com/bssm-oss/ilko"><img src="https://bssm-oss-badges.vercel.app/api/project/ilko.svg" width="256"/></a></td>
+</tr>
+</table>
+</div>
 
-## 🗂️ Project Catalog
+## 🗂️ All Projects
 
-### AI · Agent · Workflow
+<details>
+<summary>🤖 AI · Agent · Workflow</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
@@ -48,7 +63,10 @@
 | [PlainCode](https://github.com/bssm-oss/PlainCode) | Spec-first orchestrator that builds code from Markdown specifications | [@heodongun](https://github.com/heodongun) | `Go` `AI` |
 | [PLASMA](https://github.com/bssm-oss/PLASMA) | Persona Lifecycle & Adaptive Social Mind Architecture | [@BitByte08](https://github.com/BitByte08) | `TypeScript` `AI` `CLI` |
 
-### Mobile · Desktop Apps
+</details>
+
+<details>
+<summary>📱 Mobile · Desktop Apps</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
@@ -56,27 +74,30 @@
 | [kakao-talk-auto-bot-mac](https://github.com/bssm-oss/kakao-talk-auto-bot-mac) | katalk-ax CLI and menu bar tool that controls KakaoTalk via macOS Accessibility API | [@heodongun](https://github.com/heodongun) | `Swift` `macOS` `CLI` `Automation` |
 | [findkey](https://github.com/bssm-oss/findkey) | macOS AppKit credential scanner that checks GitHub repositories using Gitleaks and TruffleHog | [@heodongun](https://github.com/heodongun) | `Swift` `macOS` `Security` |
 | [daybar](https://github.com/bssm-oss/daybar) | macOS menu bar D-day tracker | [@justn-hyeok](https://github.com/justn-hyeok) | `macOS` |
-| [desktop-pet-evernight-dance](https://github.com/bssm-oss/desktop-pet-evernight-dance) | Media asset collection for desktop-pet | [@heodongun](https://github.com/heodongun) | `Asset` `Desktop Pet` |
 | [kakao-talk-auto-bot-template](https://github.com/bssm-oss/kakao-talk-auto-bot-template) | KakaoTalk auto-reply Android template with room selection, CSV import, persona and memory, and provider API key support | [@heodongun](https://github.com/heodongun) | `Kotlin` `Android` `Automation` `Template` |
 | [killsnail](https://github.com/bssm-oss/killsnail) | macOS menu bar prank app — a snail slowly follows the cursor and shows an overlay when it catches you | [@heodongun](https://github.com/heodongun) | `Swift` `macOS` `Toy App` |
-| [real-iga](https://github.com/bssm-oss/real-iga) | TBD | [@leegunwoooo](https://github.com/leegunwoooo) | `Swift` `macOS` |
 | [reunionManager](https://github.com/bssm-oss/reunionManager) | Local-first Android MVP that imports KakaoTalk export data to structure reunion plans | [@heodongun](https://github.com/heodongun) | `Kotlin` `Android` |
-| [StudentIDreplica-](https://github.com/bssm-oss/StudentIDreplica-) | TBD | [@heodongun](https://github.com/heodongun) | `Kotlin` `Android` |
+| [StudentIDreplica-](https://github.com/bssm-oss/StudentIDreplica-) | Student ID replica app | [@heodongun](https://github.com/heodongun) | `Kotlin` `Android` |
 
-### Web · Browser · UI
+</details>
+
+<details>
+<summary>🌐 Web · Browser · UI</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
 | [syncingsh](https://github.com/bssm-oss/syncingsh) | Serverless real-time collaborative notepad using Yjs and WebRTC P2P — no login, no backend | [@justn-hyeok](https://github.com/justn-hyeok) | `Svelte` `Web` |
 | [AdaptiveUIRuntime](https://github.com/bssm-oss/AdaptiveUIRuntime) | JS/TS library for safe, deterministic, and explainable adaptive UI on top of existing design systems | [@heodongun](https://github.com/heodongun) | `TypeScript` `UI` `Library` |
-| [bssm-oss-page](https://github.com/bssm-oss/bssm-oss-page) | React-based live editor canvas for the bssm-oss landing page — AI mode and code mode | [@heodongun](https://github.com/heodongun) | `TypeScript` `AI` `Web` `Archived` |
 | [MorphUI](https://github.com/bssm-oss/MorphUI) | Chrome MV3 extension that analyzes the live DOM and applies safe, reversible UI transformations | [@heodongun](https://github.com/heodongun) | `TypeScript` `Browser` `Extension` |
 | [readable](https://github.com/bssm-oss/readable) | Local AI Chrome extension that patches the accessibility tree and ARIA attributes while preserving visual layout | [@justn-hyeok](https://github.com/justn-hyeok) | `TypeScript` `AI` `Browser` |
 | [repo-tag](https://github.com/bssm-oss/repo-tag) | Free custom properties for GitHub org repos — Chrome extension | [@justn-hyeok](https://github.com/justn-hyeok) | `Chrome` `Extension` |
-| [ytm-jam-extension](https://github.com/bssm-oss/ytm-jam-extension) | YouTube Music Jam browser extension | [@HyunwooKiim](https://github.com/HyunwooKiim) | `TypeScript` `Browser` `YouTube` `Extension` |
-| [ytm-jam-web](https://github.com/bssm-oss/ytm-jam-web) | TBD | [@HyunwooKiim](https://github.com/HyunwooKiim) | `HTML` `Web` `YouTube` |
+| [ytm-jam-extension](https://github.com/bssm-oss/ytm-jam-extension) | YouTube Music live jam session browser extension | [@HyunwooKiim](https://github.com/HyunwooKiim) | `TypeScript` `Browser` `YouTube` `Extension` |
+| [ytm-jam-web](https://github.com/bssm-oss/ytm-jam-web) | YouTube Music jam session web client | [@HyunwooKiim](https://github.com/HyunwooKiim) | `HTML` `Web` `YouTube` |
 
-### CLI · Developer Tools · Infra
+</details>
+
+<details>
+<summary>🔧 CLI · Developer Tools · Infra</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
@@ -89,9 +110,12 @@
 | [terminal-pet](https://github.com/bssm-oss/terminal-pet) | TUI app with an ASCII character that lives in your terminal and reacts to CI status | [@justn-hyeok](https://github.com/justn-hyeok) | `CLI` |
 | [whatdid](https://github.com/bssm-oss/whatdid) | Daily activity summary CLI using git log and the GitHub API — what did I do today? | [@justn-hyeok](https://github.com/justn-hyeok) | `CLI` |
 | [wireguard-vpn-manager](https://github.com/bssm-oss/wireguard-vpn-manager) | WireGuard user management script with iptables-based per-user access control | [@HyunwooKiim](https://github.com/HyunwooKiim) | `Shell` `Infra` |
-| [ytm-jam-cli](https://github.com/bssm-oss/ytm-jam-cli) | YouTube Music Jam CLI | [@HyunwooKiim](https://github.com/HyunwooKiim) | `Rust` `CLI` `YouTube` |
+| [ytm-jam-cli](https://github.com/bssm-oss/ytm-jam-cli) | YouTube Music jam session CLI client | [@HyunwooKiim](https://github.com/HyunwooKiim) | `Rust` `CLI` `YouTube` |
 
-### Knowledge · Skills · Curation
+</details>
+
+<details>
+<summary>📚 Knowledge · Skills · Curation</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
@@ -100,7 +124,10 @@
 | [pm-skills-codex](https://github.com/bssm-oss/pm-skills-codex) | PM skill marketplace restructured in Codex-centric format, exposing 65 skills | [@heodongun](https://github.com/heodongun) | `Shell` `AI` `Knowledge` |
 | [tutor-skills-codex](https://github.com/bssm-oss/tutor-skills-codex) | Codex skill collection that transforms knowledge sources into Obsidian StudyVault and quiz flows | [@heodongun](https://github.com/heodongun) | `Shell` `AI` `Knowledge` |
 
-### Experiments · Misc
+</details>
+
+<details>
+<summary>🧪 Experiments · Misc</summary>
 
 | Project | Description | Lead | Tags |
 | --- | --- | --- | --- |
@@ -108,39 +135,12 @@
 | [commit-vibe](https://github.com/bssm-oss/commit-vibe) | Web app that draws a project mood timeline from commit message sentiment analysis | [@justn-hyeok](https://github.com/justn-hyeok) | `Misc` |
 | [cotor-test](https://github.com/bssm-oss/cotor-test) | Single-file web prototype for testing an AI-to-AI romance web experience | [@heodongun](https://github.com/heodongun) | `HTML` `AI` `Web` |
 | [ganbatte](https://github.com/bssm-oss/ganbatte) | for lazy developers \| 頑張って ! | [@justn-hyeok](https://github.com/justn-hyeok) | `Go` |
+| [ilko](https://github.com/bssm-oss/ilko) | TBD | [@heodongun](https://github.com/heodongun) | `Misc` |
 | [marubase](https://github.com/bssm-oss/marubase) | SaaS version of 'Maru', the BSSM entrance exam service | [@leegunwoooo](https://github.com/leegunwoooo) | `Java` |
 | [newrrow](https://github.com/bssm-oss/newrrow) | TBD | [@heodongun](https://github.com/heodongun) | `TypeScript` |
 | [newrrow-llm](https://github.com/bssm-oss/newrrow-llm) | TBD | [@heodongun](https://github.com/heodongun) | `Go` `AI` |
 | [Photon](https://github.com/bssm-oss/Photon) | Performant, Hardware-accelerated, Object, Transform, Orientation, Network | [@BitByte08](https://github.com/BitByte08) | `TypeScript` |
 | [play-with-your-term](https://github.com/bssm-oss/play-with-your-term) | Terminal game collection that looks like build logs — but it's actually blackjack | [@justn-hyeok](https://github.com/justn-hyeok) | `Game` |
-| [ytm-jam-server](https://github.com/bssm-oss/ytm-jam-server) | YouTube Music Jam server | [@HyunwooKiim](https://github.com/HyunwooKiim) | `TypeScript` `YouTube` |
+| [ytm-jam-server](https://github.com/bssm-oss/ytm-jam-server) | YouTube Music jam session server | [@HyunwooKiim](https://github.com/HyunwooKiim) | `TypeScript` `YouTube` |
 
-## 🤝 Contributing Guidelines
-
-### 1. Repository Naming
-
-- All public repository names use **lowercase kebab-case** by default.
-- The name alone should convey what it builds.
-- Avoid vague names like `test`, `final`, `new`, or `awesome-project`.
-- If projects differ in nature — library, app, CLI, experiment — the name should reflect that.
-
-### 2. Pull Requests
-
-- One PR covers **one topic**.
-- PR body must include at minimum: **background, changes, and verification steps**.
-- For UI or behavioral changes, include at least one of: screenshot, run output, or example output.
-- Split large changes into multiple PRs to help reviewers move quickly.
-- Before merging, title and body alone should explain why the change is needed.
-
-### 3. README Requirements
-
-- Every public repository **must have a README**.
-- README must include at minimum: **project intro, setup/install, usage, tech stack or structure, and contribution guide**.
-- A first-time visitor should understand what the project does within one minute.
-- The harder a project is to run, the more context it needs: example screens, CLI examples, API examples, demo links.
-
-### 4. Public Repository Standards
-
-- Manage public repositories for **explainability**, not just output.
-- Repositories without documentation, setup instructions, or clear purpose should not remain public indefinitely.
-- The baseline standard: someone else should be able to continue development from where you left off.
+</details>
