@@ -2,16 +2,7 @@
 
 **[English](README.md)**
 
-<div align="center">
-
-<img src="https://bssm-oss-badges.vercel.app/api/banner.svg" alt="BSSM OSS Banner" width="800"/>
-
-<img src="https://bssm-oss-badges.vercel.app/api/stats.svg" alt="BSSM OSS Stats" width="800"/>
-
-<img src="https://bssm-oss-badges.vercel.app/api/members.svg" alt="BSSM OSS Members" width="800"/>
-
-</div>
-
+부산소프트웨어마이스터고등학교 학생들의 오픈소스 프로젝트 모음입니다.
 
 ## 🗂️ 카테고리별 프로젝트 카탈로그
 

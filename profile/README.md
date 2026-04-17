@@ -2,16 +2,7 @@
 
 **[한국어](README.ko.md)**
 
-<div align="center">
-
-<img src="https://bssm-oss-badges.vercel.app/api/banner.svg" alt="BSSM OSS Banner" width="800"/>
-
-<img src="https://bssm-oss-badges.vercel.app/api/stats.svg" alt="BSSM OSS Stats" width="800"/>
-
-<img src="https://bssm-oss-badges.vercel.app/api/members.svg" alt="BSSM OSS Members" width="800"/>
-
-</div>
-
+Open-source projects by students at Busan Software Meister High School.
 
 ## 🗂️ All Projects
 
