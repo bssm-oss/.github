@@ -2,10 +2,6 @@
 
 **[한국어](README.ko.md)**
 
-> An open-source organization at Busan Software Meister High School.
->
-> From small experiments to production-ready tools — Android, macOS, CLI, web, AI workflows, and developer tools. Not just a place to store code, but an open-source work record where others can read, run, and contribute.
-
 <div align="center">
 
 <img src="https://bssm-oss-badges.vercel.app/api/banner.svg" alt="BSSM OSS Banner" width="800"/>
